@@ -6,7 +6,7 @@
 
 int main()
 {
-    char a;
+    char a; //Variavel para resolver a limpeza do Buffer
     char estado1;
     char codCarta1 [4];
     char nome1 [50];
@@ -15,7 +15,7 @@ int main()
     float areaKm1;
     float pib1;
 
-    char b;
+    char b; //Variavel para resolver a limpeza do Buffer
     char estado2;
     char codCarta2 [4];
     char nome2 [50];
@@ -24,7 +24,7 @@ int main()
     float areaKm2;
     float pib2;
 
-     int c;
+    int c;
 
     //=== Carta 1 ===//
     printf("Insira os dados da carta 1\n");
